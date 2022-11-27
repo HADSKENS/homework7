@@ -87,9 +87,8 @@ public class Main {
         count=i*a;
         while (count<=2022){
             count+=a;
-            if (count>=1822) {
-                System.out.println(count);
-            }
+            if(count>=1822){
+            System.out.println(count);
         }
         //Задание 9
         System.out.println("Задание 9");
