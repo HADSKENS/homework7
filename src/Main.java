@@ -7,6 +7,6 @@ public class Main {
             m+=1;
         }
         System.out.print("Чтобы накопить 2459000 нам потребуется "+m);
-        System.out.print(" Месяца");
+        System.out.print("Месяца");
     }
 }
