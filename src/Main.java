@@ -7,9 +7,7 @@ public class Main {
         while (i < 2459000) {
             i += 15000;
             m += 1;
-            System.out.print(m);
-            System.out.print(" Сумма накоплений равна " + i);
-            System.out.println(" Рублей");
+            System.out.println(m+" Сумма накоплений равна " + i+" Рублей");
         }
         // Задание 2
         System.out.println("Задание 2");
