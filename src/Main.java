@@ -23,6 +23,28 @@ public class Main {
         for (f=10; f>=1;f--) {
             System.out.print(" "+f);
         }
+        System.out.println();
         //Задание 3
+        System.out.println("Задание 3");
+        int year=0;
+        int human=15000000;
+        int count=0;
+        for(year=0; year<=10; year++){
+            count=human/1000;
+            human+=(count*17);
+            human-=(count*8);
+            System.out.println(year+" Численность населения составляет "+human);
+        }
+        //Задание 4
+        System.out.println("Задание 4");
+        double gold=15000;
+        int a=0;
+        while(gold<12000000){
+            gold=gold+(gold*0.07);
+            i=(int)gold;
+            a+=1;
+            System.out.println("За " + a + " Месяц(ев), было накоплено " + i + " Рублей");
+
+        }
     }
 }
