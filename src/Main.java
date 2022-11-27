@@ -82,5 +82,14 @@ public class Main {
                 System.out.println("Сегдня пятница, "+i+" число. Необходимо подготовить отчёт");
             }
         }
+        //Задание 8
+        System.out.println("Задание 8");
+        a=79;
+        count=23*a;
+        i=1822/a;
+        while (count<=2022){
+            count+=79;
+            System.out.println(count);
+        }
     }
 }
