@@ -59,5 +59,28 @@ public class Main {
             }
         }
         //Задание 6
+        System.out.println("Задание 6");
+        gold = 15000;
+        a = 0;
+        int b=0;
+        while (b<18) {
+            gold = gold + (gold * 0.07);
+            i = (int) gold;
+            a += 1;
+            if (a % 6 == 0) {
+                System.out.println("За " + a + " Месяц(ев), было накоплено " + i + " Рублей");
+                b+=1;
+            }
+        }
+        //Задание 7
+        System.out.println("Задание 7");
+        count=1;
+        i=0;
+        for (i=0;i<=31;i++){
+            if(i==count){
+                count+=7;
+                System.out.println("Сегдня пятница, "+i+" число. Необходимо подготовить отчёт");
+            }
+        }
     }
 }
