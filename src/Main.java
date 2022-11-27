@@ -88,8 +88,10 @@ public class Main {
         count=23*a;
         i=1822/a;
         while (count<=2022){
-            count+=79;
-            System.out.println(count);
+            count+=a;
+            if (count>=1822) {
+                System.out.println(count);
+            }
         }
     }
 }
