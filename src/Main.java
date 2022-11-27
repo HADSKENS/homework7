@@ -72,7 +72,7 @@ public class Main {
         }
         //Задание 7
         System.out.println("Задание 7");
-        count=1;
+        count=2;
         i=0;
         for (i=0;i<=31;i++){
             if(i==count){
@@ -83,8 +83,8 @@ public class Main {
         //Задание 8
         System.out.println("Задание 8");
         a=79;
-        count=23*a;
         i=1822/a;
+        count=i*a;
         while (count<=2022){
             count+=a;
             if (count>=1822) {
